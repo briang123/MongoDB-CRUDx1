@@ -14,7 +14,7 @@ const OPTS = { useNewUrlParser: true };
 before(done => {
 
     //connect to mongodb
-    mongoose.connect(URI + DB, OPTS);
+    mongoose.connect(URI, OPTS);
 
     connection.once('open', () => {
         console.log('Connection has been open.');
