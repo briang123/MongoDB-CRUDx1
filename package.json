@@ -1,0 +1,24 @@
+{
+  "name": "MongoDB-CRUDx1",
+  "version": "1.0.0",
+  "description": "CRUD operations against MongoDB using Mocha and Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briang123/MongoDB-CRUDx1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briang123/MongoDB-CRUDx1/issues"
+  },
+  "homepage": "https://github.com/briang123/MongoDB-CRUDx1#readme",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.14"
+  }
+}
